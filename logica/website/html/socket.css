@@ -1,0 +1,140 @@
+.content#sock {
+    height: 400px;
+}
+
+.container_b.socket {
+    width: 500px;
+    height: 400px;
+}
+
+.container_b#login {
+    width: 250;
+    height: 150;
+}
+.container.socket_test {
+    display: flex;
+    justify-items: left;
+}
+.container.login {
+    display: grid;
+    place-items: center;
+}
+.container.sock {
+    display: grid;
+    place-items: center;
+}
+.container.username label {
+    display: flex;
+    justify-content: left;
+}
+.container.password label {
+    display: flex;
+    justify-content: left;
+}
+#warning {
+    background-color: white;
+    color: brown;
+}
+#login_button {
+    color: rgb(255, 252, 237);
+    background-color:rgb(173, 185, 219);
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+#login_button:hover {
+    color: rgb(255, 252, 237);
+    background-color: rgb(183, 193, 219);
+}
+#login_button.active {
+    color: rgb(255, 252, 237);
+    background-color: rgb(161, 174, 211);
+}
+#sock_field {
+    display:block;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 185, 219);
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+    width: 475px;
+    overflow-y: scroll;
+    overflow-x: inherit;
+}
+.bubble {
+    justify-self: right;
+    width: 200px;
+    background-color: rgb(255, 252, 237);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(219, 199, 173);
+    overflow-wrap: anywhere;
+}
+.bubble p {
+    justify-self: right;
+    padding-right: 10px;
+}
+.bubble.server {
+    justify-self: left;
+    width: 200px;
+    background-color: rgb(255, 252, 237);
+    border-style: dotted;
+    border-radius: 15px;
+    border-color: rgb(219, 199, 173);
+    overflow-wrap:anywhere;
+}
+.bubble.server p {
+    justify-self: left;
+    padding-left: 10px;
+}
+.user {
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+    justify-self: right;
+}
+.user.server {
+    justify-self: left;
+    margin-left: 10px;
+}
+#sock_text {
+    color: rgb(29, 3, 46);
+    background-color:white;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 420;
+    height: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 185, 219);
+    outline: none;
+    cursor: text;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+#sock_button {
+    color: rgb(255, 252, 237);
+    background-color:rgb(173, 185, 219);
+    border-radius: 15px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+#sock_button:hover {
+    color: rgb(255, 252, 237);
+    background-color: rgb(183, 193, 219);
+}
+#sock_button.active {
+    color: rgb(255, 252, 237);
+    background-color: rgb(161, 174, 211);
+}

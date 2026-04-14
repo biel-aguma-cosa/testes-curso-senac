@@ -1,0 +1,1355 @@
+{
+   "user_data": {
+      "admin": {
+         "name": "admin",
+         "password": "1234"
+      },
+      "cebola": {
+         "name": "cebola",
+         "password": "321"
+      }
+   },
+   "patients": {
+      "alberto": {
+         "name": "alberto",
+         "birthdate": "1111-11-11",
+         "sex": "M",
+         "diagnosis": "morrimento",
+         "state": "morreno",
+         "treatment": "rem\u00e9dios sortidos",
+         "release": "111111-11-11"
+      },
+      "roberto": {
+         "name": "roberto",
+         "birthdate": "3003-11-24",
+         "sex": "?",
+         "diagnosis": "num sei",
+         "state": "\u00af\\_(\u30c4)_/\u00af",
+         "treatment": "eu sei l\u00e1",
+         "release": "111111-11-13"
+      },
+      "": {
+         "name": "",
+         "birthdate": "",
+         "sex": "",
+         "diagnosis": "",
+         "state": "",
+         "treatment": "",
+         "release": ""
+      },
+      "p\u00e3o": {
+         "name": "p\u00e3o",
+         "birthdate": "2026-03-11",
+         "sex": "F",
+         "diagnosis": "1234",
+         "state": "1234",
+         "treatment": "1234",
+         "release": "0034-02-11"
+      }
+   },
+   "public_data": [
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "admin logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "haihai"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "hello"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "hola"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "tudo bien?"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "n\u00e3o"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": ":("
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            ""
+         ]
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "",
+            "birthdate": "",
+            "sex": "",
+            "diagnosis": "",
+            "state": "",
+            "treatment": "",
+            "release": ""
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "aaa"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "admin logged in"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "texto"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "oi"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "aaa"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "",
+            "birthdate": "",
+            "sex": "",
+            "diagnosis": "",
+            "state": "",
+            "treatment": "",
+            "release": ""
+         }
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            "",
+            "p\u00e3o"
+         ]
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "p\u00e3o",
+            "birthdate": "2026-03-11",
+            "sex": "F",
+            "diagnosis": "1234",
+            "state": "1234",
+            "treatment": "1234",
+            "release": "0034-02-11"
+         }
+      }
+   ],
+   "all_data": [
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto"
+         ]
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto"
+         ]
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "admin logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "haihai"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "hello"
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto"
+         ]
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "hola"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "tudo bien?"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "n\u00e3o"
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": ":("
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            ""
+         ]
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "",
+            "birthdate": "",
+            "sex": "",
+            "diagnosis": "",
+            "state": "",
+            "treatment": "",
+            "release": ""
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            ""
+         ]
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "cebola logged in"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "alberto",
+            "birthdate": "1111-11-11",
+            "sex": "M",
+            "diagnosis": "morrimento",
+            "state": "morreno",
+            "treatment": "rem\u00e9dios sortidos",
+            "release": "111111-11-11"
+         }
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "roberto",
+            "birthdate": "3003-11-24",
+            "sex": "?",
+            "diagnosis": "num sei",
+            "state": "\u00af\\_(\u30c4)_/\u00af",
+            "treatment": "eu sei l\u00e1",
+            "release": "111111-11-13"
+         }
+      },
+      {
+         "type": "message",
+         "sender": "cebola",
+         "message": "aaa"
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            ""
+         ]
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "admin logged in"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "texto"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "oi"
+      },
+      {
+         "type": "message",
+         "sender": "admin",
+         "message": "aaa"
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "",
+            "birthdate": "",
+            "sex": "",
+            "diagnosis": "",
+            "state": "",
+            "treatment": "",
+            "release": ""
+         }
+      },
+      {
+         "type": "patient_list",
+         "list": [
+            "alberto",
+            "roberto",
+            "",
+            "p\u00e3o"
+         ]
+      },
+      {
+         "type": "patient_show",
+         "patient": {
+            "name": "p\u00e3o",
+            "birthdate": "2026-03-11",
+            "sex": "F",
+            "diagnosis": "1234",
+            "state": "1234",
+            "treatment": "1234",
+            "release": "0034-02-11"
+         }
+      }
+   ]
+}

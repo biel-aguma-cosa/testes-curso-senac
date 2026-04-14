@@ -1,0 +1,23 @@
+.container.temp {
+    justify-self: left;
+    display: grid;
+    place-items: center;
+}
+
+.container_temp {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
+}
+.container_temp .slider {
+    width: 495px;
+}
+.container_temp .num {
+    border-radius: 15px;
+    border: none;
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    width: 150px;
+    text-align: right;
+}

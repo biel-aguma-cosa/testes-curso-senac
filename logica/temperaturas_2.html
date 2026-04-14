@@ -1,0 +1,126 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+        <h1>Conversor de Temperaturas</h1>
+        <div class="container"><input onchange="equalize_num(0)" value="0" id="C_num" class="num" type="number"><h3 id="C_label" class="label">C</h3> <input id="C_slider" class="slider" type="range" min="-100" max="100"></div>
+        <div class="container"><input onchange="equalize_num(1)" value="0" id="K_num" class="num" type="number"><h3 id="K_label" class="label">K</h3> <input id="K_slider" class="slider" type="range" min=" 173" max="374"></div>
+        <div class="container"><input onchange="equalize_num(2)" value="0" id="F_num" class="num" type="number"><h3 id="F_label" class="label">F</h3> <input id="F_slider" class="slider" type="range" min="-148" max="212"></div>
+        </div>
+    </body>
+    <style>
+        body {
+            background-color: rgb(43, 43, 43);
+            color: aliceblue;
+        }
+        .container {
+            display: flex;
+            justify-content: left;
+            border-color: black;
+        }
+        .num {
+            color: aliceblue;
+            background-color:rgb(43, 43, 43);
+            border-color: black;
+            border-radius: 15%;
+            width: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+        .slider {
+            width: 400px;
+            display: flex;
+        }
+        .container h3 {
+
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+    </style>
+    <script>
+        let K, F, C = 0
+        let C_slider = document.getElementById("C_slider")
+        let K_slider = document.getElementById("K_slider")
+        let F_slider = document.getElementById("F_slider")
+        let C_num = document.getElementById("C_num")
+        let K_num = document.getElementById("K_num")
+        let F_num = document.getElementById("F_num")
+
+        function equalize() {
+            C_num.value = C
+            K_num.value = K
+            F_num.value = F
+            C_slider.value = C
+            K_slider.value = K
+            F_slider.value = F
+        }
+
+        function equalize_slider(index) {
+            switch (index) {
+                case 0:
+                    C = Number(C_slider.value)
+                    K = Math.round(C + 273.15)
+                    F = Math.round(C * 9/5 + 32)
+                    break
+                case 1:
+                    K = Number(K_slider.value)
+                    C = Math.round(K - 273.15)
+                    F = Math.round((C * 1.8) + 32)
+                    break
+                case 2:
+                    F = Number(F_slider.value)
+                    C = Math.round((F - 32)*5/9)
+                    K = Math.round(C + 273.15)
+                    break}
+            equalize()
+        }
+        function equalize_num(index) {
+            switch (index) {
+                case 0:
+                    C = Number(C_num.value)
+                    K = Math.round(C + 273.15)
+                    F = Math.round(C * 9/5 + 32)
+                    break;
+                case 1:
+                    K = Number(K_num.value)
+                    C = Math.round(K - 273.15)
+                    F = Math.round((C * 1.8) + 32)
+                    break;
+                case 2:
+                    F = Number(F_num.value)
+                    C = Math.round((F - 32)*5/9)
+                    K = Math.round(C + 273.15)
+                    break;}
+            equalize()
+        }
+
+        C_slider.addEventListener('input', (event) => {
+            C_num.value = event.target.value
+            equalize_slider(0)
+        })
+        K_slider.addEventListener('input', (event) => {
+            K_num.value = event.target.value
+            equalize_slider(1)
+        })
+        F_slider.addEventListener('input', (event) => {
+            F_num.value = event.target.value
+            equalize_slider(2)
+        })
+
+        C_num.addEventListener('input', (event) => {
+            C_slider.value = event.target.value
+            equalize_num(0)
+        })
+        K_num.addEventListener('input', (event) => {
+            K_slider.value = event.target.value
+            equalize_num(1)
+        })
+        F_num.addEventListener('input', (event) => {
+            F_slider.value = event.target.value
+            equalize_num(2)
+        })
+    </script>
+</html>

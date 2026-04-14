@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(219, 199, 173);
+    color: rgb(29, 3, 46);
+}
+.tab {
+    overflow: hidden;
+    border-style: 2px solid;
+}
+.content {
+    padding-left: 20px;
+    display: block;
+    background-color: rgb(255, 252, 237);
+}
+.dummy {
+    display: block;
+    border: 5px solid rgb(161, 174, 211);
+    background-color: rgb(255, 252, 237);
+    padding-bottom: 300px;
+}      
+.tab button {
+    color: rgb(255, 252, 237);
+    background-color:rgb(173, 185, 219);
+    float: left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tab button:hover {
+    color: rgb(255, 252, 237);
+    background-color: rgb(183, 193, 219);
+}
+.tab button.active {
+    color: rgb(255, 252, 237);
+    background-color: rgb(161, 174, 211);
+}
+.container_b {
+    display: block;
+    background-color: rgb(219, 199, 173);
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 185, 219);
+    float: left;
+    margin: 10px;
+}

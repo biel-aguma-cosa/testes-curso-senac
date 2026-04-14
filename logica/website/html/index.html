@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="temperature.css">
+        <link rel="stylesheet" href="socket.css">
+        <link rel="stylesheet" href="medic.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="tab">
+            <button id="default" class="tab_b" onclick="open_tab(event,'temp')">Temperaturas</button>
+            <button class="tab_b" onclick="open_tab(event,'resign')">Carta de demiss&atilde;o</button>
+            <button id="socket_tab" class="tab_b" onclick="open_tab(event,'sock')">Teste Socket</button>
+            <button class="tab_b" onclick="open_tab(event,'medic')">Ficha M&eacute;dica</button>
+        </div>
+        <div class="dummy">
+            <div class="content" id="medic">
+                <div class="container medical_sheet">
+                    <div class="container med">
+                        <h1>Ficha M&eacute;dica</h1>
+                        <div class="container_b med">
+                            <div class="container medical_data">
+                                <form id="medic_form" action="">
+                                <table class="patient_data">
+                                    <tr>
+                                        <th>NOME</th>
+                                        <th>
+                                            <input name="name" type="text">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>NASCIMENTO</th>
+                                        <th>
+                                            <input name="birthdate" type="date">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>SEXO</th>
+                                        <th>
+                                            <input name="sex" value="F" type="radio">Feminino</input>
+                                            <input name="sex" value="M" type="radio">Masculino</input>
+                                            <input name="sex" value="?" type="radio">Outro</input>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>DIAGN&Oacute;STICO</th>
+                                        <th>
+                                            <input name="diagnosis" type="text">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>ESTADO</th>
+                                        <th>
+                                            <textarea name="state" class="med" rows="3" cols="40"></textarea>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>TRATAMENTO</th>
+                                        <th>
+                                            <textarea name="treatment" class="med" rows="3" cols="40"></textarea>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>LIBERA&Ccedil;&Atilde;O</th>
+                                        <th>
+                                            <input name="release" type="date">
+                                        </th>
+                                    </tr>
+                                </table>
+                                </form>
+                            </div>
+                            <div class="container med_buttons">
+                                <button onclick="patient_new()">Novo Paciente</button> <button onclick="patient_save()"> Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container patients">
+                        <h1>Pacientes</h1>
+                        <div id="patient_list" class="container_b patients">
+                        </div>
+                    </div>
+                    <div class="container login">
+                        <h3>LOGIN</h3>
+                        <div class="container_b" id="login">
+                            <form class="login_form" action="">
+                                <div class="container username">
+                                    <label for="username">usu&aacute;rio:</label>
+                                    <input name="username" type="text" placeholder="nome de usu&aacute;rio">
+                                </div>
+                                <div class="container password">
+                                    <label for="password">senha:</label>
+                                    <input name="password" type="password" placeholder="********">
+                                </div>
+                                <div><button type="submit" id="login_button">fazer login / registrar-se</button></div>
+                            </form>
+                        </div>
+                        <p id="warning" color="red">N&atilde;O USE SUA SENHA REAL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="resign">
+                text
+            </div>
+            <div class="content" id="temp">
+                <div class="container temp">
+                    <h1>Conversor de Temperaturas</h1>
+                    <div class="container_b temp">
+                        <div class="container_temp"><input oninput="temperature('num',0)" value="0" id="C_num" class="num" type="number"><h3 id="C_label" class="label">C</h3> <input oninput="temperature('slider',0)" id="C_slider" class="slider" type="range" min="-100" max="100"></div>
+                        <div class="container_temp"><input oninput="temperature('num',1)" value="0" id="K_num" class="num" type="number"><h3 id="K_label" class="label">K</h3> <input oninput="temperature('slider',1)" id="K_slider" class="slider" type="range" min=" 173" max="374"></div>
+                        <div class="container_temp"><input oninput="temperature('num',2)" value="0" id="F_num" class="num" type="number"><h3 id="F_label" class="label">F</h3> <input oninput="temperature('slider',2)" id="F_slider" class="slider" type="range" min="-148" max="212"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="sock">
+                <div class="container socket_test">
+                    <div class="container sock">
+                        <h1>Teste de Socket</h1>
+                        <div class="container_b socket">
+                            <div id="sock_field">&ltdiv></div>
+                            <input id="sock_text" type="text">
+                            <button id="sock_button" onclick="speak()">send</button>
+                        </div>
+                    </div>
+                    <div class="container login">
+                        <h3>LOGIN</h3>
+                        <div class="container_b" id="login">
+                            <form class="login_form" action="">
+                                <div class="container username">
+                                    <label for="username">usu&aacute;rio:</label>
+                                    <input name="username" type="text" placeholder="nome de usu&aacute;rio">
+                                </div>
+                                <div class="container password">
+                                    <label for="password">senha:</label>
+                                    <input name="password" type="password" placeholder="********">
+                                </div>
+                                <div><button type="submit" id="login_button">fazer login / registrar-se</button></div>
+                            </form>
+                        </div>
+                        <p id="warning" color="red">N&atilde;O USE SUA SENHA REAL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        main()
+    </script>
+</html>

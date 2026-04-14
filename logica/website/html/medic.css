@@ -1,0 +1,67 @@
+.container.medical_sheet {
+    display: flex;
+    justify-content: left;
+}
+
+.content#med {
+    height: 400px;
+}
+
+.container.med {
+    display: grid;
+    place-items: center;
+}
+.container.patients {
+    display: grid;
+    place-items: center;
+}
+
+.container_b.med {
+    width: 500;
+    height: 500;
+}
+.container_b.patients {
+    width: 300;
+    height: 500;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+textarea.med {
+    width: 300;
+    height: 50;
+    resize: none;
+    overflow: hidden;
+}
+
+.patient_data {
+    height: 450px;
+    font-size: large;
+    text-align: left;
+}
+.patient_data input {
+    width: 300px;
+}
+.patient_data input[type=number] {
+    width: 60;
+}
+.patient_data th {
+    background-color: rgb(255, 252, 237);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.patient {
+    background-color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.patient:hover {
+    background-color: rgb(255, 252, 237);
+}
+.patient.active {
+    background-color: rgb(255, 252, 237);
+}
