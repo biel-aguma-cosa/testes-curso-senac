@@ -1,0 +1,7 @@
+form {
+
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(115, 163, 127);
+}
